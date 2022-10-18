@@ -1,18 +1,21 @@
-import React from 'react';
-import './App.css';
-import { Container, Navbar, NavbarBrand } from 'reactstrap';
-//import CodingPhoto from 'C:\Users\Dell-Userx\my-app\src\codingphoto.png'
+import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Projects from "./pages/Projects";
+import Experience from "./pages/Experience";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <div className="App">
-       <Navbar dark color='primary' sticky='top' expand='md'>
-               <Container>
-                    <NavbarBrand href='/'>
-                    </NavbarBrand>
-                </Container>
-            </Navbar>
-            Staci Southerland
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/experience" element={<Experience />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
