@@ -2,6 +2,7 @@
 import React from "react";
 import ProjectItem from '../components/ProjectItem';
 import { ProjectList } from '../helpers/ProjectList';
+import Proj1 from '../assets/Proj1.png';
 
 import "../styles/Projects.css";
 
