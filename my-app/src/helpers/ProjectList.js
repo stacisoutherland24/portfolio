@@ -7,33 +7,25 @@ import Proj1 from "../assets/Proj1.png";
 
 export const ProjectList = [
   {
-    name: " n/a ",
+    name: "Project 1",
     image: Proj1,
     skills: " n/a ",
   },
   {
-    name: " n/a ",
+    name: "Project 2",
     image: Proj1,
     skills: " n/a ",
   },
   {
-    name: " n/a ",
+    name: " Project 3 ",
     image: Proj1,
-    skills: " n/a ",
+    skills: " Project 3 ",
   },
   {
-    name: " n/a ",
+    name: " Project 4 ",
     image: Proj1,
     skills: " n/a ",
   },
-  {
-    name: " n/a ",
-    image: Proj1,
-    skills: " n/a ",
-  },
-  {
-    name: " n/a ",
-    image: Proj1,
-    skills: " n/a ",
-  },
+  
+
 ];

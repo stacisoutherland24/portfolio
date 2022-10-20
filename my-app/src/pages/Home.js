@@ -17,10 +17,9 @@ function Home() {
         </div>
       </div>
       <div className="skills">
-        <h1> Skills</h1>
         <ol className="list">
           <li className="item">
-            <h2> Front-End</h2>
+            <h2> Front-End Skills</h2>
             <span>
               ReactJS, Redux, HTML, CSS, NPM, BootStrap
             </span>
